@@ -1,0 +1,44 @@
+{
+    "env": {
+        "codePath": [
+            "${workspaceFolder}/**",
+            "${workspaceFolder}/src/**"
+        ],
+        "cellar": "/usr/local/Cellar",
+        "pcl": "${cellar}/pcl/1.11.1_1/include/pcl-1.11",
+        "boost": "${cellar}/boost/1.73.0/include",
+        "eigen": "${cellar}/eigen/3.3.7/include/eigen3",
+        "flann": "${cellar}/flann/1.9.1_9/include",
+        "vtk": "${cellar}/vtk/9.0.1/include/vtk-9.0/",
+        "usr_include": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/",
+        "sys_include": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys",
+        "dependencies_path": [
+            "${pcl}",
+            "${boost}",
+            "${eigen}",
+            "${flann}",
+            "${vtk}"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${codePath}",
+                "${dependencies_path}",
+                "/usr/local/Cellar/pcl/1.11.1_1/include/pcl-1.11",
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

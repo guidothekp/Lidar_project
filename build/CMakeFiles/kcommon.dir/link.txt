@@ -1,0 +1,2 @@
+/Applications/Xcode_12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libkcommon.a CMakeFiles/kcommon.dir/src/processPointClouds.cpp.o CMakeFiles/kcommon.dir/src/render/render.cpp.o
+/Applications/Xcode_12_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libkcommon.a
